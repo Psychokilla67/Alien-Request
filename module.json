@@ -1,0 +1,61 @@
+{
+    "id": "alien-request",
+    "title": "Alien - Request",
+    "description": "A roll module for Alien RPG",
+    "authors": [
+        {
+            "name": "Shaz"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12"
+    },
+    "scripts": [
+        "scripts/main.js"
+    ],
+    
+    "settings": {
+        "alwaysShow": {
+            "name": "Toujours Afficher",
+            "scope": "world",
+            "config": false,
+            "default": false,
+            "type": "Boolean"
+        },
+        "shortcutKey": {
+            "name": "Touche de Raccourci",
+            "scope": "world",
+            "config": true,
+            "default": "KeyD",
+            "type": "String"
+        }
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }
+
+    ],
+    "url": "https://github.com/votre-nom/alien-request",
+    "license": "MIT",
+    "socket": true
+}
